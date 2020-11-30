@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61819" started-at="2020-11-30T21:15:39 EET" finished-at="2020-11-30T21:16:40 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61819" started-at="2020-11-30T21:15:39 EET" finished-at="2020-11-30T21:16:40 EET">
+      <class name="com.maven.selenium.TestCase">
+        <test-method status="PASS" signature="StartDriver()[pri:0, instance:com.maven.selenium.TestCase@1dfe2924]" name="StartDriver" is-config="true" duration-ms="12562" started-at="2020-11-30T21:15:39 EET" finished-at="2020-11-30T21:15:51 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method status="PASS" signature="userSuccesregistration()[pri:1, instance:com.maven.selenium.TestCase@1dfe2924]" name="userSuccesregistration" duration-ms="6904" started-at="2020-11-30T21:15:51 EET" finished-at="2020-11-30T21:15:58 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSuccesregistration -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:com.maven.selenium.TestCase@1dfe2924]" name="CloseDriver" is-config="true" duration-ms="1552" started-at="2020-11-30T21:15:58 EET" finished-at="2020-11-30T21:16:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.maven.selenium.TestCase@1dfe2924]" name="screenShot" is-config="true" duration-ms="2" started-at="2020-11-30T21:16:00 EET" finished-at="2020-11-30T21:16:00 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userSuccesregistration status=SUCCESS method=TestCase.userSuccesregistration()[pri:1, instance:com.maven.selenium.TestCase@1dfe2924] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="StartDriver()[pri:0, instance:com.maven.selenium.TestCase@1dfe2924]" name="StartDriver" is-config="true" duration-ms="7446" started-at="2020-11-30T21:16:00 EET" finished-at="2020-11-30T21:16:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method status="PASS" signature="userSucceslogin()[pri:2, instance:com.maven.selenium.TestCase@1dfe2924]" name="userSucceslogin" duration-ms="2260" started-at="2020-11-30T21:16:07 EET" finished-at="2020-11-30T21:16:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSucceslogin -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:com.maven.selenium.TestCase@1dfe2924]" name="CloseDriver" is-config="true" duration-ms="613" started-at="2020-11-30T21:16:09 EET" finished-at="2020-11-30T21:16:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.maven.selenium.TestCase@1dfe2924]" name="screenShot" is-config="true" duration-ms="0" started-at="2020-11-30T21:16:10 EET" finished-at="2020-11-30T21:16:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userSucceslogin status=SUCCESS method=TestCase.userSucceslogin()[pri:2, instance:com.maven.selenium.TestCase@1dfe2924] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="PASS" signature="StartDriver()[pri:0, instance:com.maven.selenium.TestCase@1dfe2924]" name="StartDriver" is-config="true" duration-ms="9366" started-at="2020-11-30T21:16:10 EET" finished-at="2020-11-30T21:16:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method status="PASS" signature="userCheckout()[pri:3, instance:com.maven.selenium.TestCase@1dfe2924]" name="userCheckout" duration-ms="20403" started-at="2020-11-30T21:16:19 EET" finished-at="2020-11-30T21:16:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCheckout -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:com.maven.selenium.TestCase@1dfe2924]" name="CloseDriver" is-config="true" duration-ms="651" started-at="2020-11-30T21:16:40 EET" finished-at="2020-11-30T21:16:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.maven.selenium.TestCase@1dfe2924]" name="screenShot" is-config="true" duration-ms="0" started-at="2020-11-30T21:16:40 EET" finished-at="2020-11-30T21:16:40 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCheckout status=SUCCESS method=TestCase.userCheckout()[pri:3, instance:com.maven.selenium.TestCase@1dfe2924] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- com.maven.selenium.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
